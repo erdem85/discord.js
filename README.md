@@ -1,3 +1,5 @@
+### Using this on a user account is prohibited by the Discord TOS and can lead to the account block.
+
 ## replace your d.js module with this repo
 example for your package.json
 ```
