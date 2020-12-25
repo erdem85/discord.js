@@ -1,7 +1,3 @@
-# I don't take any responsibility for blocked Discord accounts that used this module.
-
-# Using this on a user account is prohibited by the Discord TOS and can lead to the account block.
-
 ### replace your d.js module with this repo
 example for your package.json
 ```js
@@ -16,6 +12,10 @@ const { Client } = require("discord.js");
 const client = new Client({user:true});
 client.login(process.env.USERTOKEN)
 ```
+
+# I don't take any responsibility for blocked Discord accounts that used this module.
+
+# Using this on a user account is prohibited by the Discord TOS and can lead to the account block.
 
 <div align="center">
   <br />
