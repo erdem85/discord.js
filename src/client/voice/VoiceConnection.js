@@ -168,7 +168,7 @@ class VoiceConnection extends EventEmitter {
    * @type {?VoiceState}
    */
   get voice() {
-    return this.channel.guild.me?.voice ?? null;
+    return this.channel.guild.voice || null;
   }
 
   /**
