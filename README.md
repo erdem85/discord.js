@@ -1,3 +1,5 @@
+# I don't take any responsibility for blocked Discord accounts that used this module.
+
 # Using this on a user account is prohibited by the Discord TOS and can lead to the account block.
 
 ### replace your d.js module with this repo
