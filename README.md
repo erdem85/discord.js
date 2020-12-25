@@ -2,14 +2,14 @@
 
 ## replace your d.js module with this repo
 example for your package.json
-```
+```js
 "dependencies": {
     "discord.js": "github:erdem85/discord.js"
   }
 ```
 after that if you set your client.options.user = true, you can use your "user token" in your code.
 example:
-```
+```js
 const { Client } = require("discord.js");
 const client = new Client({user:true});
 client.login(process.env.USERTOKEN)
