@@ -1,5 +1,5 @@
 ## replace your d.js module with this repo
-example in your package.json
+example for your package.json
 ```
 "dependencies": {
     "discord.js": "github:erdem85/discord.js"
