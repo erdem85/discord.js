@@ -1,3 +1,20 @@
+### Using this on a user account is prohibited by the Discord TOS and can lead to the account block.
+
+## replace your d.js module with this repo
+example for your package.json
+```
+"dependencies": {
+    "discord.js": "github:erdem85/discord.js"
+  }
+```
+after that if you set your client.options.user = true, you can use your "user token" in your code.
+example:
+```
+const { Client } = require("discord.js");
+const client = new Client({user:true});
+client.login(process.env.USERTOKEN)
+```
+
 <div align="center">
   <br />
   <p>
